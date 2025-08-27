@@ -48,3 +48,7 @@ input[type="checkbox"]:focus {
 .btn {
   background-color: var(--marrom-claro);
 }
+
+.btn:hover {
+  background-color: var(--marrom-escuro);
+}
