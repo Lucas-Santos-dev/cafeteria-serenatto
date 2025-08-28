@@ -52,3 +52,24 @@ input[type="checkbox"]:focus {
 .btn:hover {
   background-color: var(--marrom-escuro);
 }
+
+.sem-focus:focus,
+.sem-focus:active,
+.sem-focus:hover {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.accordion-button {
+  background-color: var(--marrom-claro) !important;
+  color: inherit !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.accordion-button:hover {
+  background-color: var(--marrom-escuro) !important;
+  color: inherit !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
