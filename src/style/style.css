@@ -45,11 +45,11 @@ input[type="checkbox"]:focus {
   --bs-bg-opacity: .2;
 }
 
-.btnOptions {
+.btn {
   background-color: var(--marrom-claro);
 }
 
-.btnOptions:hover {
+.btn:hover {
   background-color: var(--marrom-escuro);
 }
 
